@@ -24,6 +24,8 @@ app.use(express.json());
 app.use(express.urlencoded({extended: false}))
 app.use(cors()); // Cross-Origin Resource Sharing
 
+// ROOT
+app.get('/', (req, res) => { res.send('OMG IT IS WORKING!!') })
 
 // SIGN IN
 app.post('/signin', (req, res) => { signIn.handleSignIn(req, res, db, bcrypt) })
