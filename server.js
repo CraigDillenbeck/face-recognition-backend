@@ -3,8 +3,8 @@ const bcrypt = require('bcrypt-nodejs');
 const cors = require('cors');
 const knex = require('knex');
 
-// const register = require('./controllers/register');
-import handleRegister from './controllers/register';
+const register = require('./controllers/register');
+// import handleRegister from './controllers/register';
 const signIn = require('./controllers/signIn');
 const getProfile = require('./controllers/profile')
 const handleImage = require('./controllers/image')
