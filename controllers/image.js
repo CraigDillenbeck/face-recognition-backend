@@ -1,10 +1,3 @@
-
-// const handleApiCall = () => {
-//   const PAT = '2ca102d212a94b93b589e302dc00c670';
-//   const USER_ID = 'craigdillenbeck';
-//   const APP_ID = 'facial-recognition';
-// }
-
 const handleImage = (req, res, db) => {
   const { id } = req.body;
 

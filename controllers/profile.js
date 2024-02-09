@@ -1,4 +1,3 @@
-
 const getProfile = (req, res, db) => {
   const { id } = req.params;
   db.select('*')
